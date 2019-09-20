@@ -15,6 +15,8 @@
 		F00A44DE233537EF00F857B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F00A44DC233537EF00F857B6 /* LaunchScreen.storyboard */; };
 		F00A44E9233537EF00F857B6 /* TableView_PickerView_NavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00A44E8233537EF00F857B6 /* TableView_PickerView_NavigationTests.swift */; };
 		F00A44F4233537F000F857B6 /* TableView_PickerView_NavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00A44F3233537F000F857B6 /* TableView_PickerView_NavigationUITests.swift */; };
+		F00A450223353C4200F857B6 /* Sign In.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00A450123353C4200F857B6 /* Sign In.swift */; };
+		F00A450423353C5900F857B6 /* Sign Up.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00A450323353C5900F857B6 /* Sign Up.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		F00A44EF233537F000F857B6 /* TableView-PickerView_NavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableView-PickerView_NavigationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F00A44F3233537F000F857B6 /* TableView_PickerView_NavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView_PickerView_NavigationUITests.swift; sourceTree = "<group>"; };
 		F00A44F5233537F000F857B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F00A450123353C4200F857B6 /* Sign In.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sign In.swift"; sourceTree = "<group>"; };
+		F00A450323353C5900F857B6 /* Sign Up.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sign Up.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				F00A44D0233537EE00F857B6 /* AppDelegate.swift */,
 				F00A44D2233537EE00F857B6 /* ViewController.swift */,
+				F00A450123353C4200F857B6 /* Sign In.swift */,
+				F00A450323353C5900F857B6 /* Sign Up.swift */,
 				F00A44D4233537EE00F857B6 /* Main.storyboard */,
 				F00A44DA233537EF00F857B6 /* Assets.xcassets */,
 				F00A44DC233537EF00F857B6 /* LaunchScreen.storyboard */,
@@ -259,9 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F00A450223353C4200F857B6 /* Sign In.swift in Sources */,
 				F00A44D3233537EE00F857B6 /* ViewController.swift in Sources */,
 				F00A44D1233537EE00F857B6 /* AppDelegate.swift in Sources */,
 				F00A44D9233537EE00F857B6 /* TableView_PickerView_Navigation.xcdatamodeld in Sources */,
+				F00A450423353C5900F857B6 /* Sign Up.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
