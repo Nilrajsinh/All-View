@@ -17,6 +17,7 @@
 		F00A44F4233537F000F857B6 /* TableView_PickerView_NavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00A44F3233537F000F857B6 /* TableView_PickerView_NavigationUITests.swift */; };
 		F00A450223353C4200F857B6 /* Sign In.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00A450123353C4200F857B6 /* Sign In.swift */; };
 		F00A450423353C5900F857B6 /* Sign Up.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00A450323353C5900F857B6 /* Sign Up.swift */; };
+		F00A45062335509800F857B6 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00A45052335509800F857B6 /* HomePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		F00A44F5233537F000F857B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F00A450123353C4200F857B6 /* Sign In.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sign In.swift"; sourceTree = "<group>"; };
 		F00A450323353C5900F857B6 /* Sign Up.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sign Up.swift"; sourceTree = "<group>"; };
+		F00A45052335509800F857B6 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				F00A44D2233537EE00F857B6 /* ViewController.swift */,
 				F00A450123353C4200F857B6 /* Sign In.swift */,
 				F00A450323353C5900F857B6 /* Sign Up.swift */,
+				F00A45052335509800F857B6 /* HomePage.swift */,
 				F00A44D4233537EE00F857B6 /* Main.storyboard */,
 				F00A44DA233537EF00F857B6 /* Assets.xcassets */,
 				F00A44DC233537EF00F857B6 /* LaunchScreen.storyboard */,
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F00A450223353C4200F857B6 /* Sign In.swift in Sources */,
+				F00A45062335509800F857B6 /* HomePage.swift in Sources */,
 				F00A44D3233537EE00F857B6 /* ViewController.swift in Sources */,
 				F00A44D1233537EE00F857B6 /* AppDelegate.swift in Sources */,
 				F00A44D9233537EE00F857B6 /* TableView_PickerView_Navigation.xcdatamodeld in Sources */,
